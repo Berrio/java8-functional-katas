@@ -2,7 +2,9 @@ import katas.*;
 import model.MovieList;
 import util.DataUtil;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static org.junit.Assert.*;
 
@@ -13,9 +15,6 @@ public class Main {
 
 //        assertEquals(Kata2.execute().size(), 2);
 //        System.out.println("Kata 2 solved!");
-
-//        List<MovieList> movieLists = DataUtil.getMovieLists();
-//        movieLists.get(0).
 
 //        assertEquals(Kata3.execute().size(), 4);
 //        System.out.println("Kata 3 solved!");
@@ -45,5 +44,7 @@ public class Main {
 //        System.out.println("Kata 11 solved!");
 //
 //        System.out.println("ALL DONE, you're a functional programming NINJA!");
+
     }
 }
+//[[[1, 2, 3], [1, 2, 3]], [[1, 2, 3], [1, 2, 3]]]
